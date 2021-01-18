@@ -486,7 +486,6 @@ ul {
 
 /* PROJECTS */
 .projects {
-  margin-bottom: 94px;
   border-top: 1px solid #ececec;
 }
 .projects h2 {
@@ -497,6 +496,7 @@ ul {
   letter-spacing: 0.06em;
   margin-top: 20px;
   margin-bottom: 4px;
+  padding-left: 24px;
 }
 .projects p {
   color: var(--text-color);
@@ -508,6 +508,9 @@ ul {
 .projects-item {
   margin-top: 0px;
   margin-bottom: 0px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 20px;
 }
 .projects-list {
   margin-top: 0px;
