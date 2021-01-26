@@ -107,6 +107,7 @@ ul {
   padding-left: 0px;
   padding-bottom: 32px;
 }
+
 .contacts-item {
   display: flex;
   align-items: center;
@@ -116,11 +117,17 @@ ul {
   margin-left: 50px;
 }
 .email-link {
+  display: flex;
   color: var(--text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14px;
   letter-spacing: 0.02em;
+  align-items: center;
+}
+.email-focus-link:focus {
+  color: var(--accent-text-color);
+  fill: var(--accent-text-color);
 }
 .email-icon {
   fill: var(--text-color);
@@ -136,6 +143,7 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  align-items: center;
 }
 .phone-icon {
   fill: var(--text-color);
@@ -145,16 +153,15 @@ ul {
 }
 
 .contacts-item:hover .email-icon,
-.contacts-item:hover .phone-icon {
+.contacts-item:hover .phone-icon,
+.phone-link:focus .phone-icon,
+.email-link:focus .email-icon{
   fill: var(--accent-text-color);
 }
-.contacts-item:hover .email-link,
-.contacts-item:hover .phone-link {
-  color: var(--accent-text-color);
-}
-.email-link:focus {
-  color: var(--accent-text-color);
-}
+
+.email-link:hover,
+.phone-link:hover ,
+.email-link:focus,
 .phone-link:focus {
   color: var(--accent-text-color);
 }
