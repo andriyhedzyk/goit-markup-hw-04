@@ -59,8 +59,6 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
-  padding-top: 94px;
-  padding-bottom: 94px;
   padding-right: 15px;
   padding-left: 15px;
 }
@@ -175,19 +173,16 @@ ul {
   background-repeat: no-repeat;
   background-position: center;
   max-width: 1600px;
-  height: 600px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 0px;
-
   text-align: center;
 }
 .hero-title {
   margin-top: 0px;
   margin-bottom: 30px;
-  padding-top: 200px;
   color: var(--backround-color);
   font-style: 400;
   font-weight: 900;
@@ -200,6 +195,10 @@ ul {
 }
 
 /* Feature */
+.features {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .features-title {
   margin-top: 0px;
   margin-bottom: 10px;
@@ -243,13 +242,16 @@ ul {
 }
 
 /* Work and Team*/
+.work {
+  padding-bottom: 94px;
+}
+
 .work-container {
   align-items: center;
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
   padding-top: 0px;
-  padding-bottom: 94px;
   padding-right: 15px;
   padding-left: 15px;
 }
@@ -286,6 +288,8 @@ ul {
 .team {
   background-color: var(--button-backround);
   align-items: center;
+  padding-top: 94px;
+  padding-bottom: 94px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -510,6 +514,8 @@ ul {
 
 /* PROJECTS */
 .projects {
+  padding-top: 94px;
+  padding-bottom: 94px;
   border-top: 1px solid #ececec;
 }
 .projects h2 {
@@ -583,6 +589,13 @@ ul {
   width: 44px;
   height: 44px;
   fill: red;
+}
+
+/* CLIENTS */
+
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .clients-container {
   display: flex;
